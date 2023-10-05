@@ -14,12 +14,8 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem "faraday-retry"
+  gem "webrick"
+  gem "rouge"
+  gem "kramdown"
 end
-
-gem "webrick", "~> 1.8"
-
-gem "rouge", "~> 3.26"
-
-gem "kramdown", "~> 2.3"
-
-gem "faraday-retry", "~> 2.2"
