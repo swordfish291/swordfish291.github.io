@@ -26,6 +26,8 @@ search: true
 
 # Build settings
 markdown: kramdown
+# highlighter
+highlighter: 'rouge'
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
