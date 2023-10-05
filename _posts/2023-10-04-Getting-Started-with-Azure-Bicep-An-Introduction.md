@@ -20,6 +20,7 @@ To better understand the shift from ARM templates to Bicep, let's look at how ea
 
 ### 1. ARM Template (JSON)
 
+
 ```json
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
