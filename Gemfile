@@ -18,4 +18,5 @@ group :jekyll_plugins do
   gem "webrick"
   gem "rouge"
   gem "kramdown"
+  gem "jekyll-github-metadata"
 end
