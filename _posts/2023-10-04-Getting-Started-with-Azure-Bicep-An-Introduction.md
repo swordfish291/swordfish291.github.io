@@ -64,3 +64,5 @@ Observations:
 **Natural Syntax:** Functions like resourceGroup().location feel more intuitive in Bicep, aligning closely with their intended function.
 
 It's evident from this comparison why many developers and infrastructure professionals are finding Azure Bicep a welcome change from ARM templates.
+
+In future posts we will talk about the limitations of Azure Bicep and also compare it with Terraform which is also an indistry leader in IaC deployments. 
