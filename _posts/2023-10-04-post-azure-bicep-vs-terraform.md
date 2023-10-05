@@ -41,7 +41,14 @@ To better understand the shift from ARM templates to Bicep, let's look at how ea
 
 ### 2. Azure Bicep
 ```bicep
-resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = { name: 'mystorageaccount' location: resourceGroup().location sku: { name: 'Standard_LRS' } kind: 'StorageV2' }
+resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = { 
+    name: 'mystorageaccount' 
+    location: resourceGroup().location 
+    sku: { 
+        name: 'Standard_LRS' 
+        } 
+    kind: 'StorageV2' 
+    }
 ```
 
 Observations:
