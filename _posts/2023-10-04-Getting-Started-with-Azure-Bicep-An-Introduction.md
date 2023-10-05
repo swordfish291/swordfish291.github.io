@@ -1,4 +1,3 @@
-# Getting Started with Azure Bicep: An Introduction
 
 Hello everyone! As more organizations shift towards cloud-native solutions, the importance of managing and deploying resources effectively has never been greater. This is where the concept of Infrastructure as Code (IaC) comes into play. Today, I'd like to introduce you to Microsoft's answer to IaC for Azure: Azure Bicep.
 
