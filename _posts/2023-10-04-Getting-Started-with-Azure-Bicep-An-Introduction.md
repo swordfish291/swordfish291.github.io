@@ -42,7 +42,7 @@ To better understand the shift from ARM templates to Bicep, let's look at how ea
 
 ### 2. Azure Bicep
 
-```bicep
+```hcl
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = { 
     name: 'mystorageaccount' 
     location: resourceGroup().location 
@@ -51,6 +51,13 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = {
         } 
     kind: 'StorageV2' 
     }
+```
+
+```powershell
+[PSCustomObject]@{
+  Name = Value
+}
+Get-WMIObject Win32_computerSystem
 ```
 
 Observations:
