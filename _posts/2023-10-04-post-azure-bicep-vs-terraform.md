@@ -19,7 +19,7 @@ Azure Bicep is designed with a clear focus on simplifying the IaC process, makin
 To better understand the shift from ARM templates to Bicep, let's look at how each would define a simp
 
 ### 1. ARM Template (JSON)
-```
+```json
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
@@ -40,7 +40,7 @@ To better understand the shift from ARM templates to Bicep, let's look at how ea
 ```
 
 ### 2. Azure Bicep
-```
+```bicep
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = { name: 'mystorageaccount' location: resourceGroup().location sku: { name: 'Standard_LRS' } kind: 'StorageV2' }
 ```
 
